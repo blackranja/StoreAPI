@@ -1,0 +1,30 @@
+{
+  "name": "storeapi",
+  "version": "1.0.0",
+  "description": "An API for Managing a Store Application Using ExpressJS and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackranja/StoreAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackranja/StoreAPI/issues"
+  },
+  "homepage": "https://github.com/blackranja/StoreAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.8.4"
+  }
+}
